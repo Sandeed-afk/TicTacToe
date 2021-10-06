@@ -7,7 +7,6 @@ export default class GameView {
                 <div class="header__status"></div>
                 <button type="button" class="header__restart">
                     <i class="material-icons">refresh</i>
-                </button>
             </div>
             <div class="board">
                 <div class="board__tile" data-index="0"></div>
@@ -47,7 +46,7 @@ export default class GameView {
     }
 
     updateTurn(game) {
-        this.root.querySelector(".header__turn").textContent = `${game.turn}'s turn`;
+        this.root.querySelector(".header__turn").textContent = `${game.turn}'s turnn`;
     }
 
     updateStatus(game) {
